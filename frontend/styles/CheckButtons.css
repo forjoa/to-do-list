@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.button.check {
+    margin-top: 25px;
+    font-family: 'Bungee';
+    width: 50%;
+}
+
+.button.check.delete {
+    border-color: red;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.button.check.delete:hover {
+    box-shadow: 3px 3px 0px 2px rgb(135, 0, 0);
+    background-color: rgba(255, 0, 0, 0.5);
+    text-shadow: none;
+}
+
+.button.check.complete {
+    border-color: green;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+.button.check.complete:hover {
+    box-shadow: 3px 3px 0px 2px rgb(0, 80, 0);
+    background-color: rgba(0, 128, 0, 0.5);
+    text-shadow: none;
+}
+
+.check-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    .button.check {
+        width: 100%;
+        margin: 0
+    }
+
+    .check-content {
+        margin-top: 20px;
+        gap: 10px;
+    }
+}

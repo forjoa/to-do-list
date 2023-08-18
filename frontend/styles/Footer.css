@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+footer {
+    position: sticky;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    backdrop-filter: blur(12px);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bungee';
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+a:hover {
+    text-shadow: 2px 2px 0px #000000;
+    transform: translate(-5px, -5px);
+}
+

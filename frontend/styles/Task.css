@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.li {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    background-color: #444;
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+p, span {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bungee';
+    margin: 0;
+    text-shadow: 3px 3px 0px #000000;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
